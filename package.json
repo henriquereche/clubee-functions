@@ -1,0 +1,21 @@
+{
+  "name": "Clubee.Functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "mongodb": "^3.3.4"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "@types/mongodb": "^3.3.11",
+    "@types/node": "^12.12.9",
+    "typescript": "^3.3.3"
+  }
+}
